@@ -2,7 +2,8 @@
 @import url(./header.css);
 @import url(./main.css);
 @import url(./buttons.css);
-
+@import url(./footer.css);
+@import url(./responsive.css);
 /*Fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@200;300;400&display=swap');
 
@@ -15,6 +16,13 @@
   font-family: 'Source Sans 3', sans-serif;
   vertical-align: baseline;
   text-decoration: none;
+  list-style: none;
+}
+
+body {
+  background-image: url(../images/bolha-background.png);
+  background-repeat: no-repeat;
+  background-position: left;
 }
 
 .container {

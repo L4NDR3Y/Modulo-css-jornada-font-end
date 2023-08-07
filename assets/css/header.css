@@ -1,6 +1,10 @@
 Header section {
-  justify-content: space-between;
+  justify-content: right;
   align-items: center;
+}
+
+header nav {
+  margin: 0 0 0 200px;
 }
 
 Header nav ul {
