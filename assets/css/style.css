@@ -1,6 +1,8 @@
 /*Components*/
 @import url(./header.css);
+@import url(./main.css);
 @import url(./buttons.css);
+
 /*Fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@200;300;400&display=swap');
 
@@ -13,4 +15,18 @@
   font-family: 'Source Sans 3', sans-serif;
   vertical-align: baseline;
   text-decoration: none;
+}
+
+.container {
+  width: 1024px;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: collum;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+
+
 }

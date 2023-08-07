@@ -2,15 +2,18 @@
   padding: 5px 20px;
 }
 
-.btn.btn-laranja {
+.btn.btn-blue,
+.btn.btn-blue:hover {
   background: deepskyblue;
-  color: white;
-  border-radius: 50px;
+}
+
+.btn.btn-blue {
+  color: #333366;
+  border-radius: 15px;
   text-shadow: 0 0 8px rgb(3, 156, 207);
 }
 
-.btn.btn-laranja:hover {
-  background: rgb(3, 156, 207);
-  color: white;
-  border-radius: 50px;
+.btn.btn-blue:hover {
+  color: #333366;
+  border-radius: 15px;
 }

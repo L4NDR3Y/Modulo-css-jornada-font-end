@@ -1,0 +1,107 @@
+.sobre-web-design {
+  align-items: center;
+}
+
+.sobre-web-design h1,
+.sobre-web-design h1:hover {
+  color: #333366;
+}
+
+.sobre-web-design h1 {
+  align-items: center;
+  font-size: 44px;
+}
+
+.sobre-web-design h1:hover {
+  text-shadow: 0 0 5px deepskyblue;
+}
+
+.sobre-web-design span {
+  display: none;
+}
+
+.sobre-web-design span b {
+  color: #333366;
+  font-size: 22px;
+}
+
+.sobre-web-design h1:hover span {
+  animation: opacity 5s;
+  animation-delay: 0s;
+
+  background: rgb(231, 228, 228);
+
+  padding: 20px;
+  position: absolute;
+  width: auto;
+  height: auto;
+  border-radius: 0 15px 15px 15px;
+  display: block;
+
+  font-size: 18px;
+  text-shadow: none;
+  color: black;
+
+}
+
+@keyframes opacity {
+  0% {
+    opacity: 0;
+  }
+
+  10% {
+    opacity: 10;
+  }
+
+  20% {
+    opacity: 20;
+  }
+
+  30% {
+    opacity: 30;
+  }
+
+  40% {
+    opacity: 40;
+  }
+
+  50% {
+    opacity: 50;
+  }
+
+  60% {
+    opacity: 60;
+  }
+
+  70% {
+    opacity: 70;
+  }
+
+  80% {
+    opacity: 80;
+  }
+
+  90% {
+    opacity: 90;
+  }
+
+  100% {
+    opacity: 100;
+  }
+}
+
+.sobre-web-design h2,
+.sobre-web-design article p {
+  color: #333366;
+}
+
+.sobre-web-design h2 {
+  font-size: 15px;
+  text-transform: uppercase;
+  line-height: 15px;
+}
+
+.sobre-web-design article p {
+  margin: 10px 0px 20px;
+
+}
