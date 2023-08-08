@@ -6,3 +6,7 @@ footer ul li a img {
   width: 30px;
 
 }
+
+footer .row {
+  align-items: center;
+}

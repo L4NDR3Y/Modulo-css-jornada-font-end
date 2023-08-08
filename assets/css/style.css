@@ -1,40 +1,11 @@
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@200;300;400&display=swap');
+
 /*Components*/
+@import url(./bootstrap.css);
 @import url(./header.css);
 @import url(./main.css);
 @import url(./buttons.css);
 @import url(./footer.css);
-@import url(./responsive.css);
-/*Fonts*/
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@200;300;400&display=swap');
-
-/*Reset*/
-* {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font-family: 'Source Sans 3', sans-serif;
-  vertical-align: baseline;
-  text-decoration: none;
-  list-style: none;
-}
-
-body {
-  background-image: url(../images/bolha-background.png);
-  background-repeat: no-repeat;
-  background-position: left;
-}
-
-.container {
-  width: 1024px;
-  margin: 30px auto;
-  display: flex;
-  flex-direction: collum;
-}
-
-.row {
-  display: flex;
-  flex-direction: row;
-
-
-}
+@import url(./responsive-background.css);
+@import url(./responsive-elements.css);
