@@ -7,23 +7,23 @@ header nav {
   margin: 0 0 0 200px;
 }
 
-Header nav ul {
+.Barra-nav {
   display: flex;
   flex-direction: row;
   list-style: none;
   align-items: center;
 }
 
-Header nav ul li {
+.Barra-nav li {
   margin: 0 15px;
 }
 
-Header nav ul li a,
-Header nav ul li a:hover {
+.Barra-nav li a,
+.Barra-nav ul li a:hover {
   color: #333366;
 }
 
-Header nav ul li a {
+.Barra-nav li a {
   padding: 5px 20px;
 }
 
